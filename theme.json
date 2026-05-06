@@ -1,0 +1,100 @@
+{
+  "name": "Modern Blue Red Theme",
+  "dataColors": [
+    "#1F4E79",
+    "#2E86C1",
+    "#5DADE2",
+    "#85C1E9",
+    "#E74C3C",
+    "#EC7063",
+    "#F1948A",
+    "#AAB7B8"
+  ],
+  "background": "#F4F6F7",
+  "foreground": "#2C3E50",
+  "tableAccent": "#2E86C1",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [
+          {
+            "fontFamily": "Segoe UI"
+          }
+        ],
+        "color": [
+          {
+            "solid": {
+              "color": "#2C3E50"
+            }
+          }
+        ]
+      },
+      "title": [
+        {
+          "show": true,
+          "fontSize": 14,
+          "color": {
+            "solid": {
+              "color": "#1F4E79"
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "show": false,
+          "transparency": 0
+        }
+      ],
+      "border": [
+        {
+          "show": false
+        }
+      ]
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#2C3E50"
+              }
+            }
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#7B7D7D"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "items": [
+          {
+            "color": {
+              "solid": {
+                "color": "#2C3E50"
+              }
+            }
+          }
+        ],
+        "header": [
+          {
+            "color": {
+              "solid": {
+                "color": "#1F4E79"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
